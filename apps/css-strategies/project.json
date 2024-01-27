@@ -18,6 +18,12 @@
         "production": {}
       }
     },
+    "preview": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cd dist/apps/css-strategies && npm run-script start"
+      }
+    },
     "serve": {
       "executor": "@nx/next:server",
       "defaultConfiguration": "development",
