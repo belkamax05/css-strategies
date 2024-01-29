@@ -1,0 +1,41 @@
+@import '../../../styles/styleImport.scss';
+
+@mixin btn-base {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.root {
+  padding: 5px;
+}
+.buttons {
+  & > button {
+    margin-right: 10px;
+  }
+}
+
+.btn {
+  @include btn-base;
+}
+
+.btn-primary {
+  color: white;
+  background-color: $COLOR_PRIMARY;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: $COLOR_SECONDARY;
+}

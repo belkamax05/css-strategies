@@ -1,0 +1,28 @@
+$COLOR_PRIMARY: #3f45e3;
+$COLOR_LINK: $COLOR_PRIMARY;
+
+.root {
+  border: 2px solid orange;
+}
+
+.links {
+  padding: 5px;
+
+  .title {
+    border: 2px solid purple;
+  }
+
+  a {
+    color: $COLOR_LINK;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
+
+.showcase {
+  border: 2px solid lime;
+
+  .title {
+    border: 2px solid blue;
+  }
+}
