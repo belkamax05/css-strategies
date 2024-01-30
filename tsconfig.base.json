@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["apps/css-strategies/*"],
+      "@app/*": ["apps/css-strategies/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
