@@ -11,11 +11,11 @@ import styles from './styles.module.scss';
 
 const showcases = {
   ['sass']: SassShowcase,
+  ['mui-styles']: MuiStylesShowcase,
   ['styled-components']: StyledComponentsShowcase,
+  ['emotion']: EmotionShowcase,
   ['styleX']: StyleXShowcase,
   ['tailwind']: TailwindShowcase,
-  ['mui-styles']: MuiStylesShowcase,
-  ['emotion']: EmotionShowcase,
 };
 
 type ShowcaseKey = keyof typeof showcases;
