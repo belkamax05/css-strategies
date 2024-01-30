@@ -1,6 +1,6 @@
 import { Button, Buttons, Root } from './styled';
 
-const StyledComponentsShowcase = () => {
+const EmotionShowcase = () => {
   return (
     <Root>
       <Buttons>
@@ -12,4 +12,4 @@ const StyledComponentsShowcase = () => {
   );
 };
 
-export default StyledComponentsShowcase;
+export default EmotionShowcase;

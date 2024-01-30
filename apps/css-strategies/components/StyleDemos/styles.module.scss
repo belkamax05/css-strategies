@@ -1,16 +1,10 @@
-$COLOR_PRIMARY: #3f45e3;
-$COLOR_LINK: $COLOR_PRIMARY;
+@import '../../styles/styleImport.scss';
 
 .root {
-  border: 2px solid orange;
 }
 
 .links {
   padding: 5px;
-
-  .title {
-    border: 2px solid purple;
-  }
 
   a {
     color: $COLOR_LINK;
@@ -20,9 +14,12 @@ $COLOR_LINK: $COLOR_PRIMARY;
 }
 
 .showcase {
-  border: 2px solid lime;
-
+  border: 1px solid $COLOR_BORDER;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 5px;
   .title {
-    border: 2px solid blue;
+    margin: 0;
+    padding-left: 5px;
   }
 }

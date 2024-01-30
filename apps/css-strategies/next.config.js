@@ -19,13 +19,17 @@ const nextConfig = {
     // For other options, see https://styled-components.com/docs/tooling#babel-plugin
     styledComponents: true,
   },
+
+  experimental: {
+    serverActions: true,
+  }
 };
 
 const plugins = [
   // Add more Next.js plugins to this list if needed.
   withNx,
   stylexPlugin({
-    aliases: { 
+    aliases: {
       '@/*': [path.join(__dirname, '*')],
     },
     rootDir: __dirname,
