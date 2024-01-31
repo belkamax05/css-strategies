@@ -9,6 +9,7 @@
     "build:all": "nx run-many --target=build --all",
     "build:app": "nx build css-strategies",
     "preview": "nx preview css-strategies",
+    "cf-proxy": "cloudflared tunnel --url http://localhost:4200",
     "lint": "nx lint css-strategies",
     "test": "nx test css-strategies",
     "affected:apps": "nx affected:apps",

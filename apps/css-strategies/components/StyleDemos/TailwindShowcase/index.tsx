@@ -15,6 +15,13 @@ const Button = ({ className, variant, ...props }: ButtonProps) => {
   );
 };
 
+/**
+ * Tailwind
+ * @link https://tailwindcss.com
+ * @pros highly scalable, style definitions written once are easy to use across the project
+ * @pros works like a framework for all styles in project, providing features like responsive design, dark mode, etc out of box (same as MUI does for components)
+ * @cons hard to customize individual bits, if they are not covered with TW functionality
+ */
 export default function TailwindShowcase() {
   return (
     <div className={'p-1'}>

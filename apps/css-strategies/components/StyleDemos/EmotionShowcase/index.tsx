@@ -1,5 +1,13 @@
 import { Button, Buttons, Root } from './styled';
 
+/**
+ * Emotion
+ * @link https://emotion.sh
+ * @pros supported by Material UI out of box
+ * @pros separate styling component from functional component
+ * @pros great support of TypeScript, built-in intellisense
+ * @cons creating component for each style definition might be overkill
+ */
 const EmotionShowcase = () => {
   return (
     <Root>

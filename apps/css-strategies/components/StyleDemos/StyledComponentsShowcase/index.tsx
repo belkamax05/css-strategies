@@ -1,5 +1,10 @@
 import { Button, Buttons, Root } from './styled';
 
+/**
+ * styled-components
+ * @link https://styled-components.com/
+ * @pros / @cons see "EmotionShowcase", it's same approach
+ */
 const StyledComponentsShowcase = () => {
   return (
     <Root>
